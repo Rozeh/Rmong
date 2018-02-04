@@ -31,8 +31,7 @@ const app = websockify(new Koa());
 
 app.use((ctx, next) => {
   const allowedHosts = [
-    'bitimulate.com',
-    's3.bitimulate.com.s3-website.ap-northeast-2.amazonaws.com'
+    'ec2-13-124-226-135.ap-northeast-2.compute.amazonaws.com',
   ];
   const origin = ctx.header['origin'];
   allowedHosts.every(el => {
