@@ -1,3 +1,3 @@
-# bitimulate-frontend
+# Rmong-core
 
 To be implemented..
