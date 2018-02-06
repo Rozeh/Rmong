@@ -18,10 +18,10 @@ const CoinBlock = ({currencyKey, name , last, percent}) => (
       </div>
       <div className={cx('price-info')}>
         <div className={cx('description')}>
-          현재 시세
+          현재 판매 중
           <span className={cx({ negative: percent < 0 })}>({decimalToPercentString(percent)}%)</span>
         </div>
-        <div className={cx('value')}>{limitDigit(last)} {currencyKey === 'BTC' ? 'USD' : 'BTC'}</div>
+        <div className={cx('value')}> {limitDigit(last)}{currencyKey === 'BTC' ? '원' : '개'}</div>
       </div>
     </Card>
   </Link>

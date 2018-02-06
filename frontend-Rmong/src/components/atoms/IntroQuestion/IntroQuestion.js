@@ -11,15 +11,15 @@ const IntroQuestion = ({onClick}) => (
       상쾌! RN<br/>
       <b>편리한</b> 비지니스를 도와드려요!
     </h1>
-    <p>
+    {/* <p>
       다양한 API를 이용하여 편리한 쇼핑 환경을 
       <br/>만들어 보세요.
       <br/><br/>쉽게 사용 가능합니다.
-    </p>
+    </p> */}
   </div>
-  <div className={cx('button')} onClick={onClick}>
+  {/* <div className={cx('button')} onClick={onClick}>
     시작하기
-  </div>
+  </div> */}
 </div>
 );
 

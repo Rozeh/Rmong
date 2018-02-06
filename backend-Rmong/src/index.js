@@ -31,7 +31,7 @@ const app = websockify(new Koa());
 
 app.use((ctx, next) => {
   const allowedHosts = [
-    'ec2-13-124-226-135.ap-northeast-2.compute.amazonaws.com',
+    'ec2-13-124-226-135.ap-northeast-2.compute.amazonaws.com'
   ];
   const origin = ctx.header['origin'];
   allowedHosts.every(el => {

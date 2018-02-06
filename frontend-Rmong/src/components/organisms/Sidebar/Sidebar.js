@@ -27,7 +27,7 @@ const Sidebar = ({
         ]
         : [
           <div className={cx('message')} key={0}>
-            모의 거래를 지금 시작해보세요!
+            깔라만시 사이트
           </div>,
           <Button className={cx('sign-button')} invert onClick={onLoginClick} key={1}>
             로그인 / 회원가입

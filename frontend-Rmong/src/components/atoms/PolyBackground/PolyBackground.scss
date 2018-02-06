@@ -3,13 +3,13 @@
 .poly-background {
   background: material-color('red', '500');
   width: 100%;
-  height: 100vh;
+  height: 35vh;
   overflow: hidden;
-  // clip-path: polygon(0 0, 100% 0, 100% calc(100% - 128px), 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 128px), 0 100%);
   position: relative;
   transition: all .7s ease-in-out;
   @include media("<medium") {
-    height: 95vh;
+    height: 35vh;
   }
   &.fixed {
     position: fixed;

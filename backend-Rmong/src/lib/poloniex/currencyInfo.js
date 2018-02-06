@@ -12,7 +12,7 @@ const currencyInfo = [
   {
     'key': 'BCH',
     'id': 292,
-    'name': 'Bitcoin Cash'
+    'name': '깔라만시 제품2'
   },
   {
     'key': 'BCN',
@@ -37,7 +37,7 @@ const currencyInfo = [
   {
     'key': 'BTC',
     'id': 28,
-    'name': 'Bitcoin'
+    'name': '깔라만시'
   },
   {
     'key': 'BTCD',
@@ -72,7 +72,7 @@ const currencyInfo = [
   {
     'key': 'DASH',
     'id': 60,
-    'name': 'Dash'
+    'name': '깔라만시8'
   },
   {
     'key': 'DCR',
@@ -97,12 +97,12 @@ const currencyInfo = [
   {
     'key': 'ETC',
     'id': 283,
-    'name': 'Ethereum Classic'
+    'name': '깔라만시3'
   },
   {
     'key': 'ETH',
     'id': 267,
-    'name': 'Ethereum'
+    'name': '깔라만시4'
   },
   {
     'key': 'EXP',
@@ -167,7 +167,7 @@ const currencyInfo = [
   {
     'key': 'LTC',
     'id': 125,
-    'name': 'Litecoin'
+    'name': '깔라만시5'
   },
   {
     'key': 'MAID',
@@ -317,7 +317,7 @@ const currencyInfo = [
   {
     'key': 'XMR',
     'id': 240,
-    'name': 'Monero'
+    'name': '깔라만시10'
   },
   {
     'key': 'XPM',
@@ -327,7 +327,7 @@ const currencyInfo = [
   {
     'key': 'XRP',
     'id': 243,
-    'name': 'Ripple'
+    'name': '깔라만시6'
   },
   {
     'key': 'XVC',

@@ -29,7 +29,7 @@ const HomePage = () => {
       </PolyBackground>
       <BgColor color="#f6f6f6"/>
       <div className={cx('block', 'responsive')}>
-        <h2>RN Center에선, 현재 총 <b>10개</b> 지원합니다.</h2>
+        <h2>RN Center에선, <b>특가</b>에 구매할 수 있습니다.</h2>
         <CoinMainContainer/>
         <div className={cx('more')}>
           <Link className={cx('more-button')} to="/trade">
@@ -46,7 +46,7 @@ const HomePage = () => {
               <p>보세요! <br/>그리고, 쉽게 확인해보세요!</p>
             </div>
           </Link>
-          <a className={cx('column')} href="https://github.com/velopert/bitimulate" target="_blank" rel="noopener noreferrer">
+          <a className={cx('column')} href="/trade" target="_blank" rel="noopener noreferrer">
             <GithubIcon/>
             <div className={cx('description')}>
               <h3>리얼 배송</h3>
@@ -63,7 +63,7 @@ const HomePage = () => {
       </div>
       <div className={cx('footer')}>
         <div className={cx('email')}>
-          <EmailIcon/> support@bitimulate.com
+          <EmailIcon/> wn@richnet.com
         </div>
         <div className={cx('copyright')}>
           Rich.net 대표이사: 우종민<br />
