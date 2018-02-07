@@ -1,8 +1,8 @@
 import hello from 'hellojs';
 
 hello.init({
-    facebook: 1456738254380084,
-    google: '139700894213-90pmhsv3jrjaoln83f353fmjvspdibb9.apps.googleusercontent.com'
+    facebook: 201825050556517,
+    google: '435810560904-fnnl4slkbupsof8uc395vl3eophk2ntk.apps.googleusercontent.com'
 }, {redirect_uri: '/redirect.html'});
 
 export default(function () {

@@ -31,7 +31,8 @@ const app = websockify(new Koa());
 
 app.use((ctx, next) => {
   const allowedHosts = [
-    'ec2-13-124-172-211.ap-northeast-2.compute.amazonaws.com'
+    'admin.richnet.net'
+    'aws-website-richnet-sjyf0.s3-website-us-east-1.amazonaws.com'
   ];
   const origin = ctx.header['origin'];
   allowedHosts.every(el => {
