@@ -12,7 +12,7 @@ import axios from 'axios';
 window.axios = axios;
 const socketURI = process.env.NODE_ENV === 'production'
                     ? 'wss://api.richnet.biz/ws'
-                    : 'ws://api.richnet.biz/ws'
+                    : 'ws://localhost:4000/ws'
 
 if(process.env.NODE_ENV === 'production') {
   axios.defaults.withCredentials = true;
