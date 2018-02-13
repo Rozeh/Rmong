@@ -10,10 +10,10 @@ const HeaderNav = ({logged}) => {
     <FlexBox row
       className={cx('header-nav')}>
       <NavItem to="/trade">
-        거래소
+        구매
       </NavItem>
       {logged && <NavItem to="/wallet">
-        배송확인
+        배송
       </NavItem> }
       <NavItem to="/ranking">
         주문확인

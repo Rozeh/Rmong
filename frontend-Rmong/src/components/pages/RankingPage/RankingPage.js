@@ -14,7 +14,7 @@ const RankingPage = ({match}) => {
   return (
     <PageTemplate header={<HeaderContainer solid/>} padding>
       <Helmet>
-        <title>랭킹 :: Bitimulate</title>
+        <title>확인 :: Rich.net</title>
         <meta name="description" content="사용자들의 모의 거래 수익률 랭킹"/>
       </Helmet>
       <div className={cx('block')}>

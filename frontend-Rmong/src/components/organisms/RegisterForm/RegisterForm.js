@@ -34,7 +34,7 @@ const RegisterForm = ({
         }
         <Input maxLength={15} value={nickname} onChange={onChangeNickname} onBlur={onNicknameBlur}/>
       </SectionWithTitle>
-      <SectionWithTitle title="러드 1"> 
+      <SectionWithTitle title="금액 확립"> 
         
         <SelectCurrency currency={currency} onSetCurrency={onSetCurrency}/>
         <h4>금액 선택</h4>
@@ -46,7 +46,7 @@ const RegisterForm = ({
           )
       }
       <AlignRight>
-        <Button disabled={displayNameExists} flat color="teal" className={cx('register-button')} xPadding="2rem" onClick={onSubmit}>가입</Button>
+        <Button disabled={displayNameExists} flat color="teal" className={cx('register-button')} xPadding="2rem" onClick={onSubmit}>회원가입 완료</Button>
       </AlignRight>
     </div>
   );

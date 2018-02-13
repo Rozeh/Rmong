@@ -69,11 +69,6 @@ const LoginModal = ({
             <TextButton>비밀번호 찾기</TextButton>
             <TextButton right onClick={onChangeMode}>{invertedText}</TextButton>
           </div>
-          <div className={cx('separator')}>
-            <div className={cx('or')}>OR</div>
-          </div>
-          <h3>소셜 계정으로 {modeText}</h3>
-          <SocialLoginButton onSocialLogin={onSocialLogin}/>
         </div>
       </div>
     </Modal>

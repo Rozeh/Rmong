@@ -6,7 +6,7 @@ import { SidebarContainer } from 'containers';
 
 const cx = classNames.bind(styles);
 
-const PageTemplate = ({header, children, responsive, padding, mobileNoPadding}) => {
+const PageTemplate = ({header, children, responsive, padding, mobileNoPadding, footer}) => {
   return (
     <div className={cx('page')}>
       <header>
@@ -21,6 +21,9 @@ const PageTemplate = ({header, children, responsive, padding, mobileNoPadding}) 
       })}>
         {children}
       </main>
+      <footer>
+       {footer}
+      </footer>
     </div>
   );
 };

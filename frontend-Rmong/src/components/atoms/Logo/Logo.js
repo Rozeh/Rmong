@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 const Logo = () => {
   return (
     <Link to="/" className={cx('logo')}>
-      RN CENTER
+      Rich.net
     </Link>
   );
 };

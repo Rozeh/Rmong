@@ -14,7 +14,6 @@ const TradePage = ({match}) => {
       <div className={cx('ad-area')}>
         <ResponsiveAd/>
       </div>
-
       <Route path={`${match.url}/:currencyKey`} component={TradeDetailSubpage}/>
       <Route path={match.url} component={TradeIndexSubpage}/>
     </PageTemplate>
