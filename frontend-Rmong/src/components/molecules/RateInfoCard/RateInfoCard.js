@@ -82,15 +82,18 @@ class RateInfoCard extends Component {
         <div className={cx('wrapper')}>
           <HoverCard className={cx('rate-info-card', highlight && (greater ? 'green' : 'red'))} onClick={handleOpenCurrency}>
             <div className={cx('head')}>
-              <div className={cx('short-name')}>{currencyKey}</div>
+              <div className={cx('short-name')}> 제목 </div>
               <div className={cx('pin-wrapper', { active: pinned })}><PinIcon onClick={(e) => { e.stopPropagation(); onTogglePin(); }}/></div>
             </div>
-            <div className={cx('percentage', { positive: parsedPercentage > 0, netural: parsedPercentage === 0 })}>({parsedPercentage.toFixed(2)}%)</div>
-            <div className={cx('value')}>{value}</div>
-            <div className={cx('name')}>{currencyName}</div>
+            <div className={cx('percentage', { positive: parsedPercentage > 0, netural: parsedPercentage === 0 })}>
+              ({parsedPercentage.toFixed(2)}%)
+            </div>
+            <div className={cx('value')}>{value}<div className={cx('value')}>이미지 추가</div></div>
+            
+            <div className={cx('name')}>소제목</div>
             <div className={cx('volume')}>
               <b>볼륨 </b>
-              <span>{parsedVolume}</span>
+              <span>단가</span>
             </div>
           </HoverCard>
         </div>

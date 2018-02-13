@@ -12,7 +12,9 @@ const TradePage = ({match}) => {
   return (
     <PageTemplate header={<HeaderContainer solid/>} padding responsive>
       <div className={cx('ad-area')}>
-        <ResponsiveAd/>
+        <div>
+          데이터 테스트
+        </div>
       </div>
       <Route path={`${match.url}/:currencyKey`} component={TradeDetailSubpage}/>
       <Route path={match.url} component={TradeIndexSubpage}/>

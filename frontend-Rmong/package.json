@@ -1,5 +1,5 @@
 {
-  "name": "bitimulate-frontend",
+  "name": "frontend-Richnet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -75,7 +75,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "NODE_PATH=src start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy": "aws s3 sync ./build s3://s3.bitimulate.com/ && aws cloudfront create-invalidation --distribution-id E3CLIURIVD13SA --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
+    "deploy": "aws s3 sync ./build s3://richnet/ && aws cloudfront create-invalidation --distribution-id EINZU8P7449YK --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
   },
   "jest": {
     "collectCoverageFrom": [

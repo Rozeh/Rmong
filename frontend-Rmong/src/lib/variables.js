@@ -58,11 +58,5 @@ export const chartTypes = [
 
 export const coinsInHome = [
   'BTC',
-  'BCH',
-  'ETH',
-  'ETC',
-  'LTC',
-  'XRP',
-  'DASH',
-  'XMR'
+  'BCH'
 ];

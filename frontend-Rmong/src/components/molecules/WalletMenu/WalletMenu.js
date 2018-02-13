@@ -10,9 +10,9 @@ const cx = classNames.bind(styles);
 const WalletMenu = () => {
   return (
     <Card className={cx('wallet-menu')} noPadding>
-      <NavLink activeClassName={cx('active')} exact to="/wallet">내 지갑</NavLink>
-      <NavLink activeClassName={cx('active')} to="/wallet/history">거래내역</NavLink>
-      <NavLink activeClassName={cx('active')} to="/wallet/profit">수익률</NavLink>
+      <NavLink activeClassName={cx('active')} exact to="/wallet">주문내역</NavLink>
+      <NavLink activeClassName={cx('active')} to="/wallet/history">배송확인</NavLink>
+      <NavLink activeClassName={cx('active')} to="/wallet/profit">기본내용</NavLink>
       <div className={cx('ad-area')}>
         <ResponsiveAd/>
       </div>

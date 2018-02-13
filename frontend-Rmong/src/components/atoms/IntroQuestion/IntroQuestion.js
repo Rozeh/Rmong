@@ -8,7 +8,6 @@ const IntroQuestion = ({onClick}) => (
   <div className={cx('question')}>          
   <div>
     <h1>
-      상쾌! RN<br/>
       <b>편리한</b> 비지니스를 도와드려요!
     </h1>
     {/* <p>

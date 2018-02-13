@@ -23,13 +23,10 @@ const RankingPage = ({match}) => {
         <div className={cx('ads-area')}>
           <ResponsiveAd/>
         </div>
-        <h1>수익률 랭킹</h1>
+        <h1>주문 내역</h1>
         <div className={cx('description')}>
-          수익률은 USD를 기반으로 계산됩니다.
-          <br/>랭킹은 1시간마다 매겨집니다.
-          <br/>월 수익률 랭킹 1위에겐 상금이 주어집니다!
-          <br/>
-          <br/>어뷰징이 발견될 시 롤백처리 될 수 있습니다.
+          주문 내역을 확인하실 수 있습니다.
+          <br/>주문내역은 1시간마다 갱신됩니다..
         </div>
         <hr/>
         <div className={cx('type-selector')}>

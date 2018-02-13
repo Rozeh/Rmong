@@ -10,7 +10,7 @@ const WalletSubpage = () => {
   return (
     <section className={cx('wallet-subpage')}>
       <h1>
-        내 지갑
+        주문 내역
       </h1>
       <WalletsContainer/>
     </section>

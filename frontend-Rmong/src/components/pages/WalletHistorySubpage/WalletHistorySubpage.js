@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 
 const WalletHistorySubpage = () => (
   <div className={cx('wallet-history-subpage')}>
-    <h1>거래 내역</h1>
+    <h1>배송내역</h1>
     <WalletHistories/>
   </div>
 );

@@ -28,11 +28,11 @@ class TradeDetailSubpage extends Component {
       <div>
         <div>
           <Helmet>
-            <title>{`[${currencyKey}] 거래소 :: Bitimulate`}</title>
+            <title>{`[${currencyKey}] 구매 :: Richnet`}</title>
             <meta name="description" content={`${currencyKey} 시세 확인 및 거래하기`}/>
           </Helmet>
         </div>
-        <TradeChartContainer currencyKey={currencyKey}/>
+        {/* <TradeChartContainer currencyKey={currencyKey}/> */}
         <TradeSectionContainer currencyKey={currencyKey}/>
         <OrderBookContainer/>
         <TradeHistoryContainer/>

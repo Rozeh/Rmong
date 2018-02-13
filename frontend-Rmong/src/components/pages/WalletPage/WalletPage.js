@@ -12,7 +12,7 @@ const WalletPage = () => {
   return (
     <PageTemplate header={<HeaderContainer solid/>} padding responsive mobileNoPadding>
       <Helmet>
-        <title>내 지갑 :: Bitimulate</title>
+        <title>내 지갑 :: Richnet</title>
       </Helmet>
       <div className={cx('wallet-page')}>
         <div className={cx('side-menu')}>

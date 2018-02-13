@@ -5,10 +5,7 @@ import { CoinBlock } from 'components';
 
 const cx = classNames.bind(styles);
 
-// const coinTypes = ['BTC', 'BCH', 'ETH', 'LTC', 'XRP', 'DASH', 'XMR']
-const CoinMain = ({
-  rate
-}) => {
+const CoinMain = ({ rate }) => {
   const coinBlockList = rate.map(
     r => (<CoinBlock 
       key={r.get('currencyKey')} 
