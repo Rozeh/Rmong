@@ -15,6 +15,7 @@ const socketURI = process.env.NODE_ENV === 'production'
                     : 'ws://localhost:4000/ws'
 
 if(process.env.NODE_ENV === 'production') {
+  axios.defaults.withCredentials = true;
   axios.defaults.baseURL = 'https://api.richnet.biz';
 }
 
