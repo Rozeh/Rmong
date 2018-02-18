@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 const WalletProfitSubpage = () => (
   <section className={cx('wallet-profit-subpage')}>
     <h1>
-      수익률
+      
     </h1>
     <div className={cx('profit-wrapper')}>
       <Profit/>
